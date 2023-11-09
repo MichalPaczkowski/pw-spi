@@ -1,0 +1,8 @@
+# ignore directory temp
+temp/*
+
+#all file ignoruje wszystkie pliki z rozszerzeniem txt
+*.txt
+# obojetnie gdzie jest katalog ukrywa go i ignoruje
+temp/ 
+/temp/*.js

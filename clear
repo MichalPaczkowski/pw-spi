@@ -1,0 +1,24 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 20280e9..2dc2c8b 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -3,7 +3,7 @@[m
+ <head>[m
+     <meta charset="UTF-8">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>Document</title>[m
+[32m+[m[32m    <title>Kierunek studiow</title>[m
+ </head>[m
+ <body>[m
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">[m
+[36m@@ -69,7 +69,7 @@[m
+             <td colspan="2">Larry the Bird</td>[m
+             <td>@twitter</td>[m
+           </tr>[m
+[31m-        </tbody>dads[m
+[32m+[m[32m        </tbody>[m
+       </table>[m
+[31m-</body>dasd[m
+[32m+[m[32m</body>[m
+ </html>[m
+\ No newline at end of file[m
