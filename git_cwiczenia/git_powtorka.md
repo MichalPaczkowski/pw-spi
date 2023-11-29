@@ -174,3 +174,78 @@ sprawdzanie ktore branche zostaly mergowane
 # git branch --no-merged
 nie zmergowane
 
+# git branch --sort=[key]
+sortuje branche
+
+# git branch [branch-name] [start-point]
+tworzy drugi branch z innego brancha
+
+
+#git branch --move [old] [new]
+# branch --edit-description [branch_name]
+edycja opisu brancha
+
+# git branch --list [pattern]
+wylistowanie branchy
+
+# git branch --list "feature*"
+
+# git branch --delete --remotes [remote/branch]
+usuwanie wszystkich branchy ZDALNIE
+
+# git branch --force [branch-name]
+
+
+# git checkout
+do przelaczania miedzy branchami
+do zarzadzania prac na branchu
+# git checkout -b [branch=name]
+nowy branch
+
+# git checkout [commit-hash]
+powrot do jakiegos commita
+# git checkout -- [file-name]
+przywraca stan z ostatniego commita
+
+# git checkout [branch-name] -- [file-name]
+zmiany zostana wrzucone do brancha
+
+# git checkout -
+powrot do ostatniej galezi
+
+# git checkout v1.0.0
+powrot do danego taga
+
+# git tag
+lista tagow
+
+# git tag [tag-name]
+utworzenie taga na biezacym commicie 
+
+# git tag -a [tag_name] -m "[message]"
+
+# git show [tag-name]
+
+# git push [remote] --tags
+wyrzucenie wszystkioch tagow
+
+# git tag -a [tag-name] [commit-hash] -m "[message]"
+dodaje taga do danego commita i dodaje wiadomosc
+
+
+# git reset
+cofanie zmian w repo
+# git reset[file]
+usuwa ze stage poczekalni
+
+# git reset --soft [commit]
+cofanie do danego commita ale zmiany sa wrzucone jako rzeczy do pobranie do synchronizacji z repo zdalnego
+
+# git reset --soft HEAD~1
+wycofanie o jeden commit
+
+# git reset --hard [commit]
+usuwa zmiany z commita
+
+# git reset --keep [commit]
+zachowuje 
