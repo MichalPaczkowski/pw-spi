@@ -1,6 +1,6 @@
 
 
-# git init 
+# Git init 
 opis: Inicjalizuje nowe repozytorium Git.
 PRzykład: git init
 
@@ -121,15 +121,56 @@ wie wtedy do ktorego repo wypchac
 # git config --global user.name "[email address]"
 po zainstalowaniu gita uzywamy lub mozemy lokalnie okreslic kim jestesmy
 
+# git config --global core.editor "[editor]"
 
 
+# git config --list
+pokazuje liste zmian w config
 
 
+# git config --global alias.[alias-name] "[command]"
+# git config --global alias.st "Status"
+
+# git config --global core.autocrlf [true|fakse|input]
+
+# git config --global core.ignorecase [true|false]
+ignoruje wielkosc liter
+
+# git config --global merge.tool [tool]
+
+# git config --global diff.tool [tool]
+
+# git config --global diff.filemode[tool]
+zmiana uprawnien na plikach
+
+# rebase vs merge
+rebase wszystkie commity do brancha glownego
+merge
 
 
+# git branch
+wyswietlenie wszystkich branchy
+# git branch [branch-name]
+stworzenie brancha
 
+# git branch -d [branch-name]
+usuwanie brancha
 
+# git branch -D [branch-name]
+wymuszenie usunecia brancha
 
+# git branch -r
+wyswietlenie wszyskitch branchy zdalne
 
+# git branch -a
+pokaze wszystkie
 
+# git branch --show-current
+pokazuje obecny branch
+
+# git branch --merged
+sprawdzanie ktore branche zostaly mergowane
+
+# git branch --no-merged
+nie zmergowane
 
