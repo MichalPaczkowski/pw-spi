@@ -204,6 +204,7 @@ nowy branch
 
 # git checkout [commit-hash]
 powrot do jakiegos commita
+
 # git checkout -- [file-name]
 przywraca stan z ostatniego commita
 
@@ -220,7 +221,7 @@ powrot do danego taga
 lista tagow
 
 # git tag [tag-name]
-utworzenie taga na biezacym commicie 
+utworzenie taga na biezacym commicie sdsad
 
 # git tag -a [tag_name] -m "[message]"
 
@@ -232,9 +233,9 @@ wyrzucenie wszystkioch tagow
 # git tag -a [tag-name] [commit-hash] -m "[message]"
 dodaje taga do danego commita i dodaje wiadomosc
 
-
 # git reset
 cofanie zmian w repo
+
 # git reset[file]
 usuwa ze stage poczekalni
 
